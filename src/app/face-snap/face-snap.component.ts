@@ -19,4 +19,8 @@ export class FaceSnapComponent implements OnInit {
       this.snaps = 6;
       this.imageUrl = 'https://www.codeur.com/system/user_profiles/avatars/000/506/874/large/avatar.jpg?1638200089';
   }
+
+  onAddSnap() {
+    this.snaps++;
+  }
 }
